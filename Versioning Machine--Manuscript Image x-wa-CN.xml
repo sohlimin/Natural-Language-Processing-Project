@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/engine.xsl" type="text/xsl" title="For Column Display" media="screen" ?>
+<!--<?xml-stylesheet type="text/xsl" href="displaytextbylines_wyhhkb.xsl" title="For Interlinear Display" media="screen" ?>-->
+<!--<?xml-stylesheet href="displaytextbylines_wyhhkb.xsl" type="text/xsl" title="for Printing" media="print" ?>-->
+<!--<?xml-stylesheet type="text/css" href="style_by_lines.css" title="For Interlinear Display with CSS" media="screen" ?>-->
+<!DOCTYPE TEI.2 SYSTEM "teixtstc.dtd" [
+	<!ENTITY imgw1 SYSTEM "images/wayu_huihua_keben_p1_1000x704.gif" NDATA GIF>
+	<!ENTITY imgw2 SYSTEM "images/wayu_huihua_keben_p2_1000x523.gif" NDATA GIF>
+]>
+<TEI.2>
+
+  <WadictHeader>
+	<meta name="Content-Type"  http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="Content-Language" http-equiv="Content-Language" content="x-wa"/>
+	<meta name="Title" content="佤语会话课本 (Wayu huihua keben) [Phuk Lai Gau Ra Lai Ah Loux Vax / Pug lāi mgāe dui loux loux Vax]"/>
+	<meta name="Abbreviation" content="WYHHKB"/>
+	<meta name="Creator" content="Minzu Yuyan Wenxue Xi, Yunnan Minzu Xueyuan [now Yunnan Minzu Daxue] (云南民族学院民族语言文学系)"/>
+	<meta name="Publisher" content="Yunnan Minzu Xueyuan (mimeograph)"/>
+	<meta name="Date" content="date unknown, ca. 1990?"/>
+	<meta name="Orthography" content="x-wa-CN (with added x-wa-MM)"/>
+	<meta name="Status" content="clean"/>
+	<meta name="Keywords" content="Ba Raog Wa language corpus"/>
+	<meta name="Description" content="TITLE: 佤语会话课本 (Wayu huihua keben) [Phuk Lai Gau Ra Lai Ah Loux Vax / Pug lāi mgāe dui loux loux Vax]; CREATOR: Minzu Yuyan Wenxue Xi, Yunnan Minzu Xueyuan [now Yunnan Minzu Daxue] (云南民族学院民族语言文学系); PUBLISHER: Yunnan Minzu Xueyuan (mimeograph); DATE: date unknown, ca. 1990?; ORTHOGRAPHY: x-wa-CN (with added x-wa-MM); STATUS: clean "/>
+  </WadictHeader>
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>佤语会话课本 (Wayu huihua keben) [Phuk Lai Gau Ra Lai Ah Loux Vax / Pug lāi mgāe dui loux loux Vax]</title>
+				<author>author: Minzu Yuyan Wenxue Xi, Yunnan Minzu Xueyuan [now Yunnan Minzu Daxue], Kunming, Yunnan, China)</author>
+				<respStmt>
+					<resp>Text Encoding  by <name>Richard Kunst</name> (richard.kunst@soas.ac.uk)</resp>
+				</respStmt>
+				<respStmt>
+					<resp>Proofing and Additional Encoding by <name>Sam Rai Siniex</name> and <name>Ai Cai</name>
+					</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>SOAS, U of London</publisher>
+				<address>
+					<addrLine>Thornhaugh St, Russell Square, London WC1H 0XG UK</addrLine>
+				</address>
+				<availability>
+					<p>This is experimental work in progress. It may not be reproduced without explicit permission from the copyright holder. For copyright information, please contact Justin Watkins at justin.watkins@soas.ac.uk</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note>The book <title rend="italic">Wayu huihua keben</title> was issued by Yunnan Minzu Daxue in mimeographed handwritten form sometime before 1996. 
+		  It is not currently in print. It contains 60 lessons introducing the Wa language, with each lesson consisting of a dialogue in Wa, using standard PRC
+		  orthography; an interlinear Chinese translation of the dialogue; and a Wa vocabulary list, with Chinese definitions.
+		</note>
+				<note type="render">Modifications, usually variations from mechanical equivalents in actual RB diction and usage, appear 
+		in the text as deletions in a <del>struck-out red font</del> and additions in a <add>green, fixed-width font.</add>
+		Glosses and various explanatory notes within the text appear differently, depending on whether the text is being
+		displayed in the multiple-column style of the Versioning Machine or in the single-column interlinear style. In the former style,
+		glosses are indicated by a small "G" icon next to the text. Clicking on the icon will open the note in a separate window. 
+		In the latter style, an ID number appears within the text and the note itself appears at the very bottom of the document, with
+		an ID which, while not identical, is close!</note>
+				<note type="image">
+					<witDetail wit="x-wa-CN" target="vxwacn">
+						<figure entity="imgw1"/>
+					</witDetail>
+				</note>
+				<note type="image">
+					<witDetail wit="zh" target="vxwacn2">
+						<figure entity="imgw2"/>
+					</witDetail>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>This encoded edition is based on the single known existing copy, obtained by Justin Watkins in Kunming, China in 1996.</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>This is a test document XML-encoded for use with Versioning Machine software. 
+		   DTD based on MITH DTD (constructed from TEI prose/poetry base with tagsets for linking,
+		   figures, analysis, transcr, textcrit.)</p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<witList>
+					<witness sigil="x-wa-CN" id="vxwacn">
+						<title type="italic">Wayu huihua keben</title> Wa dialogue text in Chinese orthography (base text)</witness>
+					<witness sigil="x-wa-MM">
+						<title type="italic">Wayu huihua keben</title> Wa dialogue text in Myanmar (Revised Bible) orthography</witness>
+					<witness sigil="zh" id="vzh">
+						<title type="italic">Wayu huihua keben</title> Chinese interlinear translation text</witness>
+					<witness sigil="en">English translation of dialogue text, provided by Richard Kunst</witness>
+					<witness sigil="mm">Burmese translation of dialogue text, provided by Justin Watkins et al</witness>
+				</witList>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="x-wa-CN">[Ko beng dui loux loux Vāx?]</lem>
+						<rdg wit="x-wa-MM">[Khaw:peung: tui:lox lox Vāx]</rdg>
+						<rdg wit="zh">佤语会话课本 (Wǎyǔ huìhuà kèběn)</rdg>
+						<rdg wit="en">A Textbook of Wa Dialogues</rdg>
+						<rdg wit="mm">“ဝ”စကားေပာေလ့ကင္‌့စာအုပ္‌ </rdg>
+					</app>
+				</title>
+			</head>
+<div n="1">
+<l n="0">
+<app>
+<lem id="vxwacn1" wit="x-wa-CN"> <space dim="vertical" n="1" />KO TĪX</lem>
+						<!--<note type="image">
+				  <witDetail wit="x-wa-CN" target="vxwacn10"> 
+					<figure entity="imgw1"></figure>
+				  </witDetail>
+				</note>-->
+<rdg wit="x-wa-MM"> <space dim="vertical" n="1" />KHAW: TIX</rdg>
+<rdg wit="zh"> <space dim="vertical" n="1" />第一课</rdg>
+<rdg wit="en"> <space dim="vertical" n="1" />Lesson 1</rdg>
+<rdg wit="mm"> <space dim="vertical" n="1" />အခန္‌း (၁) </rdg>
+</app>
+</l>
+<l n="1">
+<app>
+<lem wit="x-wa-CN">A: Mōh mox?</lem>
+<rdg wit="x-wa-MM">A: Mawh mawx?</rdg>
+<rdg wit="zh">甲: 谁？</rdg>
+<rdg wit="en">A: Who is it?</rdg>
+<rdg wit="mm">က။ ဘယ္သူလဲ။</rdg>
+</app>
+</l>
+<l n="2">
+<app>
+<lem wit="x-wa-CN">B: Mōh ex.</lem>
+<rdg wit="x-wa-MM">B: Mawh <del>eux</del> <add>aux</add><note
+type="gloss">There is a direct one-to-one correspondence of Wa-CN <q>ex</q>
+and Wa-MM <q>aux</q>.</note>.</rdg>
+<rdg wit="zh">乙: 是我。</rdg>
+<rdg wit="en">B: It's me.</rdg>
+<rdg wit="mm">ခ။ ကန္ေတာ္ပ။</rdg>
+</app>
+</l>
+<l n="3">
+<app>
+<lem wit="x-wa-CN">A: Noh mōh mox?</lem>
+<rdg wit="x-wa-MM">A: Nawh mawh mawx?</rdg>
+<rdg wit="zh">甲: 他是谁？</rdg>
+<rdg wit="en">A: Who is he?</rdg>
+<rdg wit="mm">က။ သူကဘယ္‌သူလဲ။ </rdg>
+</app>
+</l>
+<l n="4">
+<app>
+<lem wit="x-wa-CN">B: Noh mōh Jao Ai Bāo.</lem>
+<rdg wit="x-wa-MM">B: Nawh mawh Cao: Ai: Pao.</rdg>
+<rdg wit="zh">乙: 他是赵岩保。</rdg>
+<rdg wit="en">B: He's Jao Ai Bao (a.k.a. Zhao Aibao, Zhao Yanbao).</rdg>
+<rdg wit="mm">ခ။ သူကေကာင္‌အုိက္‌ေပင္‌းပ။ </rdg>
+</app>
+</l>
+<l n="5">
+<app>
+<lem wit="x-wa-CN">A: Beix houig din yūh ba dix?</lem>
+<rdg wit="x-wa-MM">A: Pex hoek tin: yuh <del>pa tix</del>
+<add>patix</add>?</rdg>
+<rdg wit="zh">甲: 你们来这里做什么？</rdg>
+<rdg wit="en">A: What have you come here for?</rdg>
+<rdg wit="mm">က။ ခင္‌ဗာတုိ ဘာလုပ္‌ဖုိဒီကုိ လာသလဲ။ </rdg>
+</app>
+</l>
+<l n="6">
+<app>
+<lem wit="x-wa-CN">B: Yix houig dix sōg vāi lāi gah maix.</lem>
+<rdg wit="x-wa-MM">B: Yix hoek tix sawg vai lai <del>kah</del>
+<add>ka</add><note type="gloss"><q>Ka</q> is used in majority of Wa-MM texts,
+although STB 2005 Bible uses <q>kah</q>.</note> maix.</rdg>
+<rdg wit="zh">乙: 我们来向你借书。</rdg>
+<rdg wit="en">B: We've come to borrow a book from you.</rdg>
+<rdg wit="mm">ခ။ ကန္‌ေတာ္‌တုိ ဒီကုိ စာအုပ္‌ ငားဖုိ လာတာပ။ </rdg>
+</app>
+</l>
+<l n="7">
+<app>
+<lem wit="x-wa-CN">A: Sang vāi beix lāi dix gah ex?</lem>
+<rdg wit="x-wa-MM">A: Sang: vai pex lai tix ka aux?</rdg>
+<rdg wit="zh">甲: 你们要借什么书？</rdg>
+<rdg wit="en">A: What book do you want to borrow?</rdg>
+<rdg wit="mm">က။ ဘာစာအုပ္‌ ငားခင္‌သလဲ။ </rdg>
+</app>
+</l>
+<l n="8">
+<app>
+<lem wit="x-wa-CN">B: Yix sang vāi pug lāi cix ding lāi Vax.</lem>
+<rdg wit="x-wa-MM">B: Yix sang: vai phuk lai tshix ting: lai Vax.</rdg>
+<rdg wit="zh">乙: 我们想借本佤文字典。</rdg>
+<rdg wit="en">B: We want to borrow a Wa language dictionary.</rdg>
+<rdg wit="mm">ခ။ “ဝ”စာအဘိဓာန္‌စာအုပ္‌ကုိ ငားခင္‌ပတယ္‌။ </rdg>
+</app>
+</l>
+</div>
+<div n="2">
+<l n="0">
+<app>
+<lem id="vxwacn2" wit="x-wa-CN"> <space dim="vertical" n="1" />KO RA</lem>
+						<!--<note type="image">
+				<witDetail wit="x-wa-CN" target="vp20">
+				  <figure entity="imgw2"></figure>
+				</witDetail>
+			  </note> -->
+<rdg wit="x-wa-MM"> <space dim="vertical" n="1" />KHAW: RA:</rdg>
+<rdg wit="zh"> <space dim="vertical" n="1" />第二课</rdg>
+<rdg wit="en"> <space dim="vertical" n="1" />Lesson 2</rdg>
+<rdg wit="mm"> <space dim="vertical" n="1" />အခန္း(၂)</rdg>
+</app>
+</l>
+<l n="1">
+<app>
+<lem wit="x-wa-CN">A: Mōh giex mox?</lem>
+<rdg wit="x-wa-MM">A: Mawh kiex mawx?</rdg>
+<rdg wit="zh">甲: 她俩是谁？</rdg>
+<rdg wit="en">A: Who are those two?</rdg>
+<rdg wit="mm">က။ သူတုိစ္ေယာက္ ဘယ္သူလဲ။</rdg>
+</app>
+</l>
+<l n="2">
+<app>
+<lem wit="x-wa-CN">B: Mōh mīex ex mai būx nbun ex.</lem>
+<rdg wit="x-wa-MM">B: Mawh miex aux mai: pux bun: aux.</rdg>
+<rdg wit="zh">乙: 是我的妈妈和妹妹。</rdg>
+<rdg wit="en">B: They're my mother and my younger sister.</rdg>
+<rdg wit="mm">ခ။ သူတုိက အေမနဲ ညီမပ။</rdg>
+</app>
+</l>
+<l n="3">
+<app>
+<lem wit="x-wa-CN">A: Yūh giex dix?</lem>
+<rdg wit="x-wa-MM">A: Yuh kiex tix?</rdg>
+<rdg wit="zh">甲: 她俩在做什么？</rdg>
+<rdg wit="en">A: What are they doing?</rdg>
+<rdg wit="mm">က။ သူတုိ ဘာလုပ္ေနကသလဲ။</rdg>
+</app>
+</l>
+<l n="4">
+<app>
+<lem wit="x-wa-CN">B: Daeh giex hngoux.</lem>
+<rdg wit="x-wa-MM">B: Tauh kiex nghox.</rdg>
+<rdg wit="zh">乙: 她俩在舂谷子。</rdg>
+<rdg wit="en">B: They are pounding rice [to remove the husks].</rdg>
+<rdg wit="mm">ခ။ ေမာင္းေထာင္းေနကပတယ္။</rdg>
+</app>
+</l>
+<l n="5">
+<app>
+<lem wit="x-wa-CN">A: Hngoux dix?</lem>
+<rdg wit="x-wa-MM">A: Nghox tix?</rdg>
+<rdg wit="zh">甲: 什么谷子？</rdg>
+<rdg wit="en">A: What kind of rice?</rdg>
+<rdg wit="mm">က။ ဘာဆန္ မိးလဲ။</rdg>
+</app>
+</l>
+<l n="6">
+<app>
+<lem wit="x-wa-CN">B: Hngoux bīd.</lem>
+<rdg wit="x-wa-MM">B: Nghox pid.</rdg>
+<rdg wit="zh">乙: 糯谷。</rdg>
+<rdg wit="en">B: Glutinous (sticky) rice.</rdg>
+<rdg wit="mm">ခ။ ေကာက္င္းပ။</rdg>
+</app>
+</l>
+<l n="7">
+<app>
+<lem wit="x-wa-CN">A: Ax hu ma kaing.</lem>
+<rdg wit="x-wa-MM">A: Ax hu: ma: khaing:.</rdg>
+<rdg wit="zh">甲: 我俩下地去吧。</rdg>
+<rdg wit="en">A: Let's (us two) go to the (dry) fields.</rdg>
+<rdg wit="mm">က။ ကန္ေတာ္တုိ စ္ေယာက္ စုိက္ကင္း သားရေအာင္။</rdg>
+</app>
+</l>
+<l n="8">
+<app>
+<lem wit="x-wa-CN">B: Ex sang hu ndaex gaeng.</lem>
+<rdg wit="x-wa-MM">B: Aux sang: hu: daux kaung:.</rdg>
+<rdg wit="zh">乙: 我要去田里。</rdg>
+<rdg wit="en">B: I want to go to the rice paddy.</rdg>
+<rdg wit="mm">ခ။ ကန္ေတာ္ေတာ့ လယ္သားခင္တယ္။</rdg>
+</app>
+</l>
+<l n="9">
+<app>
+<lem wit="x-wa-CN">A: Maix hu ex gah hu nang.</lem>
+<rdg wit="x-wa-MM">A: Maix hu: aux kah hu: nang:.</rdg>
+<rdg wit="zh">甲: 你去，我也去。</rdg>
+<rdg wit="en">A: If you go, I'll go too.</rdg>
+<rdg wit="mm">က။ ခင္ဗာသားရင္ ကန္ေတာ္လည္းလုိက္သားမယ္။</rdg>
+</app>
+</l>
+<l n="10">
+<app>
+<lem wit="x-wa-CN">B: Hmom, ax hu dāe.</lem>
+<rdg wit="x-wa-MM">B: Mhawm:, ax hu: tau.</rdg>
+<rdg wit="zh">乙: 好，我俩一起去。</rdg>
+<rdg wit="en">B: Good, we'll go together.</rdg>
+<rdg wit="mm">ခ။ ေကာင္းပပီ။ အတူတူသားရေအာင။္</rdg>
+</app>
+</l>
+</div>
+<div n="3">
+<l n="0">
+<app>
+<lem wit="x-wa-CN"> <space dim="vertical" n="1" />KO LOUI</lem>
+<rdg wit="x-wa-MM"> <space dim="vertical" n="1" />KHAW: LOE:</rdg>
+<rdg wit="zh"> <space dim="vertical" n="1" />第三课</rdg>
+<rdg wit="en"> <space dim="vertical" n="1" />Lesson 3</rdg>
+<rdg wit="mm"> <space dim="vertical" n="1" />အခန္း(၃)</rdg>
+</app>
+</l>
+<l n="1">
+<app>
+<lem wit="x-wa-CN">A: Mōh si mēix in mox?</lem>
+<rdg wit="x-wa-MM">A: Mawh simex in: mawx?</rdg>
+<rdg wit="zh">甲: 这个男人是谁？</rdg>
+<rdg wit="en">A: Who is this man?</rdg>
+<rdg wit="mm">က။ ဒီအမိးသား ဘယ္သူလဲ။</rdg>
+</app>
+</l>
+<l n="2">
+<app>
+<lem wit="x-wa-CN">B: Noh mōh bāox gei si mēix ex.</lem>
+<rdg wit="x-wa-MM">B: Nawh mawh paox ke: simex aux.</rdg>
+<rdg wit="zh">乙: 他是我的哥哥。</rdg>
+<rdg wit="en">B: He is my older brother.</rdg>
+<rdg wit="mm">ခ။ သူက ကန္ေတာ့္ အကုိပ။</rdg>
+</app>
+</l>
+<l n="3">
+<app>
+<lem wit="x-wa-CN">A: Nbun an mōh būi mox?</lem>
+<rdg wit="x-wa-MM">A: Bun: an: mawh pui mawx?</rdg>
+<rdg wit="zh">甲: 那个女的是谁？</rdg>
+<rdg wit="en">A: Who is that woman?</rdg>
+<rdg wit="mm">က။ အဲဒီအမိးသမီး ဘယ္သူလဲ။</rdg>
+</app>
+</l>
+<l n="4">
+<app>
+<lem wit="x-wa-CN">B: Noh mōh bāox gei nbun ex.</lem>
+<rdg wit="x-wa-MM">B: Nawh mawh paox ke: bun: aux.</rdg>
+<rdg wit="zh">乙: 她是我的姐姐。</rdg>
+<rdg wit="en">B: She is my older sister.</rdg>
+<rdg wit="mm">ခ။ သူက ကန္ေတာ့္ အမပ။</rdg>
+</app>
+</l>
+<l n="5">
+<app>
+<lem wit="x-wa-CN">A: Giex houig din yūh dix?</lem>
+<rdg wit="x-wa-MM">A: Kiex hoek tin: yuh tix?</rdg>
+<rdg wit="zh">甲: 他俩来这里做什么？</rdg>
+<rdg wit="en">A: What did the two of them come here for?</rdg>
+<rdg wit="mm">က။ သူတုိစ္ေယာက္ ဘာလုပ္ဖုိ ဒီကုိ လာသလဲ။</rdg>
+</app>
+</l>
+<l n="6">
+<app>
+<lem wit="x-wa-CN">B: Houig dix sōg būx ex.</lem>
+<rdg wit="x-wa-MM">B: Hoek tix sawg pux aux.</rdg>
+<rdg wit="zh">乙: 来找我的弟弟。</rdg>
+<rdg wit="en">B: They came to see my younger brother.</rdg>
+<rdg wit="mm">ခ။ ညီေလး အလည္လာကတာပ။</rdg>
+</app>
+</l>
+<l n="7">
+<app>
+<lem wit="x-wa-CN">A: Hoig houig būx maix?</lem>
+<rdg wit="x-wa-MM">A: Hoik<note type="gloss">Pre-2000 Wa-MM often used
+<q>hoit</q>, but now <q>hoik</q> is standard.</note> hoek pux maix?</rdg>
+<rdg wit="zh">甲: 你的弟弟来过没有？</rdg>
+<rdg wit="en">A: Has your younger brother arrived?</rdg>
+<rdg wit="mm">က။ ညီေလး ေရာက္ေနပီလား။</rdg>
+</app>
+</l>
+<l n="8">
+<app>
+<lem wit="x-wa-CN">B: Hoig, dāeg hu nux.</lem>
+<rdg wit="x-wa-MM">B: Hoik, taug hu: nux.</rdg>
+<rdg wit="zh">乙: 来过，刚才走。</rdg>
+<rdg wit="en">B: Yes, he just left.</rdg>
+<rdg wit="mm">ခ။ ဟုတ္ကဲ့၊ ခုနပဲသားပတယ္။</rdg>
+</app>
+</l>
+<l n="9">
+<app>
+<lem wit="x-wa-CN">A: Giex sōg būx maix yūh dix gah?</lem>
+<rdg wit="x-wa-MM">A: Kiex sawg pux maix yuh tix kah?</rdg>
+<rdg wit="zh">甲: 他俩找你弟弟做什么？</rdg>
+<rdg wit="en">A: What are they looking for your younger brother for?</rdg>
+<rdg wit="mm">က။ ညီေလး ဘာလုပ္ဖုိ ရာေနကသလဲ။</rdg>
+</app>
+</l>
+<l n="10">
+<app>
+<lem wit="x-wa-CN">B: Hag noh hu tong rīang dāe.</lem>
+<rdg wit="x-wa-MM">B: Hak nawh hu: thawng: riang tau.</rdg>
+<rdg wit="zh">乙: 约他一起去照相。</rdg>
+<rdg wit="en">B: To invite him to go have their picture taken together.</rdg>
+<rdg wit="mm">ခ။ သူကုိ ဓာတ္ပုံ ုိက္ဖုိ ဖိတ္ကမလုိပ။</rdg>
+</app>
+</l>
+<l n="11">
+<app>
+<lem wit="x-wa-CN">A: Tong ndēe mox?</lem>
+<rdg wit="x-wa-MM">A: Thawng: dee mawx?</rdg>
+<rdg wit="zh">甲: 哪里照？</rdg>
+<rdg wit="en">A: Where will they have it taken?</rdg>
+<rdg wit="mm">က။ ဘယ္မာုိက္ကမလဲ။</rdg>
+</app>
+</l>
+<l n="12">
+<app>
+<lem wit="x-wa-CN">B: Tong ndaex laih.</lem>
+<rdg wit="x-wa-MM">B: Thawng: daux laih.</rdg>
+<rdg wit="zh">乙: 街上照。</rdg>
+<rdg wit="en">B: They'll have it taken in town.</rdg>
+<rdg wit="mm">ခ။ ၊မိထဲမာ ုိက္ကမယ္။</rdg>
+</app>
+</l>
+</div>
+<div n="4">
+<l n="0">
+<app>
+<lem wit="x-wa-CN"> <space dim="vertical" n="1" />KO BOUN</lem>
+<rdg wit="x-wa-MM"> <space dim="vertical" n="1" />KHAW: PON:</rdg>
+<rdg wit="zh"> <space dim="vertical" n="1" />第四课</rdg>
+<rdg wit="en"> <space dim="vertical" n="1" />Lesson 4</rdg>
+<rdg wit="mm"> <space dim="vertical" n="1" />အခန္း (၄)</rdg>
+</app>
+</l>
+<l n="1">
+<app>
+<lem wit="x-wa-CN">A: Gaex maix dix?</lem>
+<rdg wit="x-wa-MM">A: Kaux maix tix?</rdg>
+<rdg wit="zh">甲: 你叫什么名字？</rdg>
+<rdg wit="en">A: What's your name?</rdg>
+<rdg wit="mm">က။ နာမည္ ဘယ္လုိေခသလဲ။</rdg>
+</app>
+</l>
+<l n="2">
+<app>
+<lem wit="x-wa-CN">B: Gaex ex Siao Ai Hang.</lem>
+<rdg wit="x-wa-MM">B: Kaux aux Shiao: Ai: Hang:.</rdg>
+<rdg wit="zh">乙: 我叫肖岩汉。</rdg>
+<rdg wit="en">B: My name is Siao Ai Hang (a.k.a. Xiao Aihan, Xiao
+Yanhan).</rdg>
+<rdg wit="mm">ခ။ စိေယာင္အုိက္ဟန္လုိ ေခပတယ္။</rdg>
+</app>
+</l>
+<l n="3">
+<app>
+<lem wit="x-wa-CN">A: Oud nyīex beix ndēe mox?</lem>
+<rdg wit="x-wa-MM">A: Ot nyiex <note type="gloss">UWSA LVPLG-GK texts usually
+use <q>nyiiex</q>, STB-NT 2002 used <q>nyiex</q>, STB 2005 returned to
+<q>nyiiex</q>.</note> pex dee mawx?</rdg>
+<rdg wit="zh">甲: 你家在哪里？</rdg>
+<rdg wit="en">A: Where is your home?</rdg>
+<rdg wit="mm">က။ ဘယ္မာ ေနသလဲ။</rdg>
+</app>
+</l>
+<l n="4">
+<app>
+<lem wit="x-wa-CN">B: Nyīex yix oud Yaong Soi.</lem>
+<rdg wit="x-wa-MM">B: Nyiex yix ot Yaong: Soi:.</rdg>
+<rdg wit="zh">乙: 我家在岩帅。</rdg>
+<rdg wit="en">B: Our home is in Yaong Soi (Aishuai, Yanshuai).</rdg>
+<rdg wit="mm">ခ။ ေယာင္စိင္ာမာ ေနပတယ္။</rdg>
+</app>
+</l>
+<l n="5">
+<app>
+<lem wit="x-wa-CN">A: Nyīex beix goui būi mīex gaex?</lem>
+<rdg wit="x-wa-MM">A: Nyiex pex koe: pui miex kaux?</rdg>
+<rdg wit="zh">甲: 你们家有几个人？</rdg>
+<rdg wit="en">A: How many people are there in your family?</rdg>
+<rdg wit="mm">က။ မိသားစုမာ ဘယ္စ္ေယာက္ ရိသလဲ။</rdg>
+</app>
+</l>
+<l n="6">
+<app>
+<lem wit="x-wa-CN">B: Goui boun gaex, mōh geeing ex, mīex ex, būx ex mai
+ex.</lem>
+<rdg wit="x-wa-MM">B: Koe: pon: kaux, mawh keeing: aux, miex aux, pux aux mai:
+aux.</rdg>
+<rdg wit="zh">乙: 有四个人，父亲、母亲、弟弟和我。</rdg>
+<rdg wit="en">B: There are four people: my father, my mother, my younger
+brother, and me.</rdg>
+<rdg wit="mm">ခ။ ေလးေယာက္ပ။ အေဖ၊ အေမ၊ ညီေလးနဲ ကန္ေတာ္။</rdg>
+</app>
+</l>
+<l n="7">
+<app>
+<lem wit="x-wa-CN">A: Mīex geeing maix yūh gāing dix?</lem>
+<rdg wit="x-wa-MM">A: Miex keeing: maix yuh kaing tix?</rdg>
+<rdg wit="zh">甲: 你父母做什么工作？</rdg>
+<rdg wit="en">A: What work do your mother and father do?</rdg>
+<rdg wit="mm">က။ အေဖအေမ ဘာ အလုပ္လုပ္ လုပ္ကသလဲ။</rdg>
+</app>
+</l>
+<l n="8">
+<app>
+<lem wit="x-wa-CN">B: Geeing ex mōh jao pad qe, mīex ex mōh jao bai
+saex.</lem>
+<rdg wit="x-wa-MM">B: Keeing: aux mawh cao: phat cheu:, miex aux mawh cao:
+pai: saux.</rdg>
+<rdg wit="zh">乙: 我父亲是驾驶员，母亲是医生。</rdg>
+<rdg wit="en">B: My father is a truck driver and my mother is a doctor.</rdg>
+<rdg wit="mm">ခ။ အေဖက ေလာ္ရီကားသမား၊ အေမေတာ့ ဆရာဝန္မပ။</rdg>
+</app>
+</l>
+</div>
+<div n="5">
+<l n="0">
+<app>
+<lem wit="x-wa-CN"> <space dim="vertical" n="1" />KO PUAN</lem>
+<rdg wit="x-wa-MM"> <space dim="vertical" n="1" />KHAW: PHUAN:</rdg>
+<rdg wit="zh"> <space dim="vertical" n="1" />第五课</rdg>
+<rdg wit="en"> <space dim="vertical" n="1" />Lesson 5</rdg>
+<rdg wit="mm"> <space dim="vertical" n="1" />အခန္း (၅)</rdg>
+</app>
+</l>
+<l n="1">
+<app>
+<lem wit="x-wa-CN">A: Goui maix mīex nūm?</lem>
+<rdg wit="x-wa-MM">A: Koe: maix miex num?</rdg>
+<rdg wit="zh">甲: 你有几岁？</rdg>
+<rdg wit="en">A: How old are you?</rdg>
+<rdg wit="mm">က။ အသက္ဘယ္ေလာက္လဲ။</rdg>
+</app>
+</l>
+<l n="2">
+<app>
+<lem wit="x-wa-CN">B: Goui ex dīx nga nūm puan.</lem>
+<rdg wit="x-wa-MM">B: Koe: aux <del>tix nga: num phwan:</del> <add>tinga:
+phwan: num</add>.</rdg>
+<rdg wit="zh">乙: 我有二十五岁。</rdg>
+<rdg wit="en">B: I'm 25 years old.</rdg>
+<rdg wit="mm">ခ။ စ္ဆယ့္ငးစ္ ရိပီ။</rdg>
+</app>
+</l>
+<l n="3">
+<app>
+<lem wit="x-wa-CN">A: Yūh maix gāing ndēe mox?</lem>
+<rdg wit="x-wa-MM">A: Yuh maix kaing dee mawx?</rdg>
+<rdg wit="zh">甲: 你在哪里工作？</rdg>
+<rdg wit="en">A: Where do you work?</rdg>
+<rdg wit="mm">က။ ဘယ္မာအလုပ္လုပ္သလဲ။</rdg>
+</app>
+</l>
+<l n="4">
+<app>
+<lem wit="x-wa-CN">B: Mgāe ex lāi sioux siao.</lem>
+<rdg wit="x-wa-MM">B: Gau aux lai siox shiao:.</rdg>
+<rdg wit="zh">乙: 我在学校教书。</rdg>
+<rdg wit="en">B: I teach school.</rdg>
+<rdg wit="mm">ခ။ ေကာင္းဆရာ လုပ္ပတယ္။</rdg>
+</app>
+</l>
+<l n="5">
+<app>
+<lem wit="x-wa-CN">A: Mgāe maix lāi Hox, mgāe maix lāi Vax?</lem>
+<rdg wit="x-wa-MM">A: Gau maix lai Hawx, gau maix lai Vax?</rdg>
+<rdg wit="zh">甲: 你教汉文，还是教佤文？</rdg>
+<rdg wit="en">A: Do you teach the Chinese language or the Wa language?</rdg>
+<rdg wit="mm">က။ တုပ္စာသင္သလာစး၊ “ဝ”စာသင္သလား။</rdg>
+</app>
+</l>
+<l n="6">
+<app>
+<lem wit="x-wa-CN">B: Lāi Hox, lāi Vax dōu mgāe.</lem>
+<rdg wit="x-wa-MM">B: Lai Hawx, lai Vax to gau.</rdg>
+<rdg wit="zh">乙: 汉文、佤文都教。</rdg>
+<rdg wit="en">B: I teach both Chinese and Wa.</rdg>
+<rdg wit="mm">ခ။ တုပ္စာနဲ“ဝ”စာ စ္ခုစလုံး သင္ပတယ္။</rdg>
+</app>
+</l>
+<l n="7">
+<app>
+<lem wit="x-wa-CN">A: Gī gāing yūh maix laih?</lem>
+<rdg wit="x-wa-MM">A: Ki kaing yuh maix laih:?</rdg>
+<rdg wit="zh">甲: 你工作忙吗？</rdg>
+<rdg wit="en">A: Does your work keep you busy?</rdg>
+<rdg wit="mm">က။ အလုပ္မားသလား။</rdg>
+</app>
+</l>
+<l n="8">
+<app>
+<lem wit="x-wa-CN">B: Gon mōh kom, ang od gī hlaox.</lem>
+<rdg wit="x-wa-MM">B: Kawn: mawh khawm:, ang: awt ki lhaox.</rdg>
+<rdg wit="zh">乙: 还可以，不太忙.</rdg>
+<rdg wit="en">B: It's OK, I'm not too busy.</rdg>
+<rdg wit="mm">ခ။ ရပတယ္။ အလုပ္ သိပ္မမားပဘူး။</rdg>
+</app>
+</l>
+<l n="9">
+<app>
+<lem wit="x-wa-CN">A: Nyōm mgāe lāi goui mīex ndīng?</lem>
+<rdg wit="x-wa-MM">A: Nyawm gau lai koe: miex ding?</rdg>
+<rdg wit="zh">甲: 有多少学生？</rdg>
+<rdg wit="en">A: How many students do you have?</rdg>
+<rdg wit="mm">က။ ေကာင္းသား ဘယ္စ္ေယာက္ ရိသလဲ။</rdg>
+</app>
+</l>
+<l n="10">
+<app>
+<lem wit="x-wa-CN">B: Goui ha sib ha gaex.</lem>
+<rdg wit="x-wa-MM">B: Koe: <del>ha: sip ha:</del> <add>tiphwan: phwan:</add>
+kaux.</rdg>
+<rdg wit="zh">乙: 有五十五个。</rdg>
+<rdg wit="en">B: I have fifty-five (55).</rdg>
+<rdg wit="mm">ခ။ ငးဆယ့္ငးေယာက္ ရိပတယ္။</rdg>
+</app>
+</l>
+</div>
+		</body>
+	</text>
+</TEI.2>
